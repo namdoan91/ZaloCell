@@ -18,6 +18,8 @@ func CoreData() -> [BetaNew]{
     let beta4 = BetaNew(imageName: "image 3", title: "Hình naruto", subTitle: "Hello Xin chào")
     let beta5 = BetaNew(imageName: "image 4", title: "Hình Itachi", subTitle: "Hello Xin chào")
     let beta6 = BetaNew(imageName: "image 5", title: "Hình luffy", subTitle: "Hello Xin chào")
-    return [beta2,beta3,beta4,beta5,beta6]
+    let beta7 = BetaNew(imageName: "image 6", title: "Hình hoa", subTitle: "Hello Xin chào")
+    
+    return [beta2,beta3,beta4,beta5,beta6,beta7]
 
 }

@@ -9,8 +9,8 @@ import UIKit
 
 class ZaloCell: UITableViewCell {
     @IBOutlet weak var avatarImage: UIImageView!
-    
-
+    @IBOutlet weak var groupTitile: UILabel!
+    @IBOutlet weak var subTitle: UILabel!
     @IBOutlet weak var timertext: UILabel!
     
     
@@ -18,12 +18,14 @@ class ZaloCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        avatarImage.layer.cornerRadius = 100
-        
+        avatarImage.layer.cornerRadius = avatarImage.frame.height/2
+//        avatarImage.clipsToBounds = true
+//        avatarImage.layer.borderWidth = 2.0
+        avatarImage.backgroundColor = UIColor.lightGray
         
         let current = Date()
         let dateFormatter = DateFormatter()
-            dateFormatter.timeStyle = .medium
+        dateFormatter.timeStyle = .short
         timertext.text = "\(dateFormatter.string(from: current))"
         timertext.numberOfLines = 0
 

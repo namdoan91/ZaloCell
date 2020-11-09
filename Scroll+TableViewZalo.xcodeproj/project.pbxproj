@@ -13,6 +13,9 @@
 		08AAE8962558CD1500C356BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08AAE8942558CD1500C356BE /* Main.storyboard */; };
 		08AAE8982558CD1500C356BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08AAE8972558CD1500C356BE /* Assets.xcassets */; };
 		08AAE89B2558CD1500C356BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08AAE8992558CD1500C356BE /* LaunchScreen.storyboard */; };
+		08AAE8AD2558F0F200C356BE /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AAE8AC2558F0F200C356BE /* CoreData.swift */; };
+		08AAE8B52558F23900C356BE /* ZaloCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AAE8B32558F23900C356BE /* ZaloCell.swift */; };
+		08AAE8B62558F23900C356BE /* ZaloCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08AAE8B42558F23900C356BE /* ZaloCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,10 @@
 		08AAE8972558CD1500C356BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08AAE89A2558CD1500C356BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08AAE89C2558CD1500C356BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08AAE8AC2558F0F200C356BE /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		08AAE8B32558F23900C356BE /* ZaloCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaloCell.swift; sourceTree = "<group>"; };
+		08AAE8B42558F23900C356BE /* ZaloCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZaloCell.xib; sourceTree = "<group>"; };
+		08AAE8B92558FB1B00C356BE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +47,7 @@
 		08AAE8822558CD1500C356BE = {
 			isa = PBXGroup;
 			children = (
+				08AAE8B92558FB1B00C356BE /* README.md */,
 				08AAE88D2558CD1500C356BE /* Scroll+TableViewZalo */,
 				08AAE88C2558CD1500C356BE /* Products */,
 			);
@@ -56,15 +64,26 @@
 		08AAE88D2558CD1500C356BE /* Scroll+TableViewZalo */ = {
 			isa = PBXGroup;
 			children = (
+				08AAE8B22558F21E00C356BE /* zalo */,
 				08AAE88E2558CD1500C356BE /* AppDelegate.swift */,
 				08AAE8902558CD1500C356BE /* SceneDelegate.swift */,
 				08AAE8922558CD1500C356BE /* ViewController.swift */,
+				08AAE8AC2558F0F200C356BE /* CoreData.swift */,
 				08AAE8942558CD1500C356BE /* Main.storyboard */,
 				08AAE8972558CD1500C356BE /* Assets.xcassets */,
 				08AAE8992558CD1500C356BE /* LaunchScreen.storyboard */,
 				08AAE89C2558CD1500C356BE /* Info.plist */,
 			);
 			path = "Scroll+TableViewZalo";
+			sourceTree = "<group>";
+		};
+		08AAE8B22558F21E00C356BE /* zalo */ = {
+			isa = PBXGroup;
+			children = (
+				08AAE8B32558F23900C356BE /* ZaloCell.swift */,
+				08AAE8B42558F23900C356BE /* ZaloCell.xib */,
+			);
+			path = zalo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +146,7 @@
 				08AAE89B2558CD1500C356BE /* LaunchScreen.storyboard in Resources */,
 				08AAE8982558CD1500C356BE /* Assets.xcassets in Resources */,
 				08AAE8962558CD1500C356BE /* Main.storyboard in Resources */,
+				08AAE8B62558F23900C356BE /* ZaloCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08AAE8B52558F23900C356BE /* ZaloCell.swift in Sources */,
 				08AAE8932558CD1500C356BE /* ViewController.swift in Sources */,
 				08AAE88F2558CD1500C356BE /* AppDelegate.swift in Sources */,
 				08AAE8912558CD1500C356BE /* SceneDelegate.swift in Sources */,
+				08AAE8AD2558F0F200C356BE /* CoreData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

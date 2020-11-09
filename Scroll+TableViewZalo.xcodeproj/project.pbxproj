@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08A8D8662559305000478DC8 /* ZaloCELLNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A8D8642559305000478DC8 /* ZaloCELLNew.swift */; };
+		08A8D8672559305000478DC8 /* ZaloCELLNew.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08A8D8652559305000478DC8 /* ZaloCELLNew.xib */; };
 		08AAE88F2558CD1500C356BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AAE88E2558CD1500C356BE /* AppDelegate.swift */; };
 		08AAE8912558CD1500C356BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AAE8902558CD1500C356BE /* SceneDelegate.swift */; };
 		08AAE8932558CD1500C356BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AAE8922558CD1500C356BE /* ViewController.swift */; };
@@ -14,11 +16,11 @@
 		08AAE8982558CD1500C356BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08AAE8972558CD1500C356BE /* Assets.xcassets */; };
 		08AAE89B2558CD1500C356BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08AAE8992558CD1500C356BE /* LaunchScreen.storyboard */; };
 		08AAE8AD2558F0F200C356BE /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AAE8AC2558F0F200C356BE /* CoreData.swift */; };
-		08AAE8B52558F23900C356BE /* ZaloCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AAE8B32558F23900C356BE /* ZaloCell.swift */; };
-		08AAE8B62558F23900C356BE /* ZaloCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08AAE8B42558F23900C356BE /* ZaloCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08A8D8642559305000478DC8 /* ZaloCELLNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaloCELLNew.swift; sourceTree = "<group>"; };
+		08A8D8652559305000478DC8 /* ZaloCELLNew.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZaloCELLNew.xib; sourceTree = "<group>"; };
 		08AAE88B2558CD1500C356BE /* Scroll+TableViewZalo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scroll+TableViewZalo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08AAE88E2558CD1500C356BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08AAE8902558CD1500C356BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,8 +30,6 @@
 		08AAE89A2558CD1500C356BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08AAE89C2558CD1500C356BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08AAE8AC2558F0F200C356BE /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
-		08AAE8B32558F23900C356BE /* ZaloCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaloCell.swift; sourceTree = "<group>"; };
-		08AAE8B42558F23900C356BE /* ZaloCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZaloCell.xib; sourceTree = "<group>"; };
 		08AAE8B92558FB1B00C356BE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,8 +80,8 @@
 		08AAE8B22558F21E00C356BE /* zalo */ = {
 			isa = PBXGroup;
 			children = (
-				08AAE8B32558F23900C356BE /* ZaloCell.swift */,
-				08AAE8B42558F23900C356BE /* ZaloCell.xib */,
+				08A8D8642559305000478DC8 /* ZaloCELLNew.swift */,
+				08A8D8652559305000478DC8 /* ZaloCELLNew.xib */,
 			);
 			path = zalo;
 			sourceTree = "<group>";
@@ -151,10 +151,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08A8D8672559305000478DC8 /* ZaloCELLNew.xib in Resources */,
 				08AAE89B2558CD1500C356BE /* LaunchScreen.storyboard in Resources */,
 				08AAE8982558CD1500C356BE /* Assets.xcassets in Resources */,
 				08AAE8962558CD1500C356BE /* Main.storyboard in Resources */,
-				08AAE8B62558F23900C356BE /* ZaloCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,8 +165,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08AAE8B52558F23900C356BE /* ZaloCell.swift in Sources */,
 				08AAE8932558CD1500C356BE /* ViewController.swift in Sources */,
+				08A8D8662559305000478DC8 /* ZaloCELLNew.swift in Sources */,
 				08AAE88F2558CD1500C356BE /* AppDelegate.swift in Sources */,
 				08AAE8912558CD1500C356BE /* SceneDelegate.swift in Sources */,
 				08AAE8AD2558F0F200C356BE /* CoreData.swift in Sources */,

@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         
-        tableView.register(UINib(nibName: "ZaloCell", bundle: nil), forCellReuseIdentifier: "ZaloCell")
+        tableView.register(UINib(nibName: "ZaloCELLNew", bundle: nil), forCellReuseIdentifier: "ZaloCELLNew")
         
     }
 }
@@ -27,9 +27,9 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ZaloCell", for: indexPath) as! ZaloCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ZaloCELLNew", for: indexPath) as! ZaloCELLNew
         cell.avatarImage?.image = UIImage(named: datas[indexPath.row].imageName)
-        cell.subTitle?.text = datas[indexPath.row].subTitle
+        cell.subTitile?.text = datas[indexPath.row].subTitle
         cell.groupTitile?.text = datas[indexPath.row].title
         return cell
     }

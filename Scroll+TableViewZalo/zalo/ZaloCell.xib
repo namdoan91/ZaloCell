@@ -44,10 +44,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LMh-2g-WFc">
-                                <rect key="frame" x="123" y="39" width="252" height="46"/>
+                                <rect key="frame" x="123" y="39" width="289" height="46"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="46" id="Zrb-7x-cgT"/>
-                                    <constraint firstAttribute="width" constant="252" id="vpy-9C-Bnb"/>
+                                    <constraint firstAttribute="width" constant="289" id="vpy-9C-Bnb"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -62,7 +62,7 @@
                             <constraint firstItem="LMh-2g-WFc" firstAttribute="leading" secondItem="hWo-67-Hrn" secondAttribute="leading" constant="123" id="UBk-Ko-PJg"/>
                             <constraint firstItem="qcT-Lw-EJ5" firstAttribute="leading" secondItem="hWo-67-Hrn" secondAttribute="leading" constant="123" id="XE7-Zi-34u"/>
                             <constraint firstItem="LMh-2g-WFc" firstAttribute="top" secondItem="qcT-Lw-EJ5" secondAttribute="bottom" constant="8" id="bCP-Gr-OwR"/>
-                            <constraint firstAttribute="trailing" secondItem="LMh-2g-WFc" secondAttribute="trailing" constant="54" id="hJi-b9-pB0"/>
+                            <constraint firstAttribute="trailing" secondItem="LMh-2g-WFc" secondAttribute="trailing" constant="17" id="hJi-b9-pB0"/>
                             <constraint firstItem="M6L-rq-X1o" firstAttribute="top" secondItem="hWo-67-Hrn" secondAttribute="top" constant="11" id="jA5-QV-htT"/>
                             <constraint firstAttribute="trailing" secondItem="M6L-rq-X1o" secondAttribute="trailing" constant="17" id="js7-0q-4Kj"/>
                             <constraint firstItem="M6L-rq-X1o" firstAttribute="leading" secondItem="qcT-Lw-EJ5" secondAttribute="trailing" constant="35" id="xMY-6W-iu5"/>

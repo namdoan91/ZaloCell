@@ -19,8 +19,6 @@ class ZaloCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         avatarImage.layer.cornerRadius = avatarImage.frame.height/2
-//        avatarImage.clipsToBounds = true
-//        avatarImage.layer.borderWidth = 2.0
         avatarImage.backgroundColor = UIColor.lightGray
         
         let current = Date()

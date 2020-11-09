@@ -64,11 +64,11 @@
 		08AAE88D2558CD1500C356BE /* Scroll+TableViewZalo */ = {
 			isa = PBXGroup;
 			children = (
+				08AAE8BC255913C400C356BE /* Data */,
 				08AAE8B22558F21E00C356BE /* zalo */,
 				08AAE88E2558CD1500C356BE /* AppDelegate.swift */,
 				08AAE8902558CD1500C356BE /* SceneDelegate.swift */,
 				08AAE8922558CD1500C356BE /* ViewController.swift */,
-				08AAE8AC2558F0F200C356BE /* CoreData.swift */,
 				08AAE8942558CD1500C356BE /* Main.storyboard */,
 				08AAE8972558CD1500C356BE /* Assets.xcassets */,
 				08AAE8992558CD1500C356BE /* LaunchScreen.storyboard */,
@@ -84,6 +84,14 @@
 				08AAE8B42558F23900C356BE /* ZaloCell.xib */,
 			);
 			path = zalo;
+			sourceTree = "<group>";
+		};
+		08AAE8BC255913C400C356BE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				08AAE8AC2558F0F200C356BE /* CoreData.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
